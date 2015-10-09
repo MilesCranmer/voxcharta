@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Vox Charta",
-  "description": "This extensions upvotes papers for Vox Charta",
+  "description": "This extensions adds Vox Charta links to arXiv abstracts",
   "version": "1.0",
 
   "content_scripts": [
