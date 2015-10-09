@@ -34,7 +34,8 @@ function getCurrentTabUrl(callback) {
     // "url" properties.
     console.assert(typeof url == 'string', 'tab.url should be a string');
 
-    callback(url);
+    document.write(url);
+    window.alert();
   });
 
   // Most methods of the Chrome extension APIs are asynchronous. This means that
