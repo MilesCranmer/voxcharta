@@ -1,5 +1,5 @@
 # voxcharta
-Currently this plugin adds the correct search url for the arxiv abstract you are viewing. 
+Currently this plugin adds the correct voxcharta search url for the arxiv abstract you are viewing. 
 
 #Installation
 Install by first downloading the 'chrome' folder.
