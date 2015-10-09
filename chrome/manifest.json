@@ -3,7 +3,7 @@
 
   "name": "Vox Charta",
   "description": "This extensions upvotes papers for Vox Charta",
-  "version": "0.3",
+  "version": "1.0",
 
   "content_scripts": [
   {
