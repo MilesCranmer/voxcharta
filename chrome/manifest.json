@@ -3,25 +3,19 @@
 
   "name": "Vox Charta",
   "description": "This extensions upvotes papers for Vox Charta",
-  "version": "0.1",
-
-  "browser_action": {
-    "default_icon": "star.png",
-    "default_title": "+1"
-  },
+  "version": "0.2",
 
   "content_scripts": [
   {
     "matches": [
       "http://arxiv.org/abs/*"
     ],
-    "js": ["popup.js"]
+    "js": ["jquery-2.1.4.min.js", "popup.js"]
   }
   ],
 
   "permissions": [
     "tabs",
-    "https://ajax.googleapis.com/",
-    "http://voxcharta.org/"
+    "http://*/*", "https://*/*"
   ]
 }
